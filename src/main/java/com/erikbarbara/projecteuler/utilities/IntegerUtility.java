@@ -22,7 +22,22 @@ public class IntegerUtility {
 		if(value == 1) {
 			return false;
 		}
-		for(int i=2;i<value;i++) {
+		if(value == 2 || value == 3 || value == 5) {
+			return true;
+		}
+		String valueString = Integer.toString(value);
+		int lastDigit = Integer.valueOf(valueString.substring(valueString.length()-1, valueString.length()));
+		if(lastDigit%2==0 || lastDigit%5==0) {
+			return false;
+		}
+		int sumDigits=0;
+		for(int i=0;i<valueString.length();i++) {
+			sumDigits+=Integer.valueOf(valueString.substring(i, i+1));
+		}
+		if(sumDigits%3==0) {
+			return false;
+		}
+		for(int i=6;i<value;i++) {
 			if(value%i==0) {
 				return false;
 			}

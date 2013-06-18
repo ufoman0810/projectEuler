@@ -1,4 +1,4 @@
-package com.erikbarbara.projecteuler;
+package com.erikbarbara.projecteuler.problems;
 
 /*
  * Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.

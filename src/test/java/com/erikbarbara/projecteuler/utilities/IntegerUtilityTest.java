@@ -8,7 +8,9 @@ public class IntegerUtilityTest {
 
 	@Test
 	public void IsPrimeTest() {
+		assertTrue(IntegerUtility.instance().isPrime(2));
 		assertTrue(IntegerUtility.instance().isPrime(3));
+		assertTrue(IntegerUtility.instance().isPrime(5));
 		assertTrue(IntegerUtility.instance().isPrime(7));
 		assertTrue(IntegerUtility.instance().isPrime(17));
 		assertFalse(IntegerUtility.instance().isPrime(4));

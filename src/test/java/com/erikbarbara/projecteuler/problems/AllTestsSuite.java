@@ -1,4 +1,4 @@
-package com.erikbarbara.projecteuler;
+package com.erikbarbara.projecteuler.problems;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

@@ -1,8 +1,10 @@
-package com.erikbarbara.projecteuler;
+package com.erikbarbara.projecteuler.problems;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.erikbarbara.projecteuler.problems.Problem7;
 
 public class Problem7Test {
 

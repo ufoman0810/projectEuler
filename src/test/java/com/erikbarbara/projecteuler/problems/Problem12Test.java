@@ -1,9 +1,11 @@
-package com.erikbarbara.projecteuler;
+package com.erikbarbara.projecteuler.problems;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 import org.junit.Test;
+
+import com.erikbarbara.projecteuler.problems.Problem12;
 
 public class Problem12Test {
 
